@@ -11,7 +11,7 @@ settings:
   monitorLabelNoData: '没数据'
   dayInHistogramNoData: '没数据'
   dayInHistogramOperational: '没挂'
-  dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
+  dayInHistogramNotOperational: ' 次无响应' # xx incident(s) recorded
 
 monitors:
   - id: utdp # unique identifier
