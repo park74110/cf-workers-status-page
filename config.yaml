@@ -16,7 +16,7 @@ settings:
 monitors:
   - id: utdp # unique identifier
     name: 安服应急响应中心工具分发平台
-    description: '今天服务挂了吗' # default=empty
+    description: '今天服务挂了吗？' # default=empty
     url: 'https://www.msangfor.com/api/hello' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
