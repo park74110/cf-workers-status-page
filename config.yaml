@@ -1,16 +1,16 @@
 settings:
   title: 'Status Page'
-  logo: logo-192x192.png # image in ./public/ folder
-  daysInHistogram: 365 # number of days you want to display in histogram
+  logo: 'Primary Sangfor Logo.png' # image in ./public/ folder
+  daysInHistogram: 180 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
-  allmonitorsOperational: 'All Systems Operational'
-  notAllmonitorsOperational: 'Not All Systems Operational'
-  monitorLabelOperational: 'Operational'
-  monitorLabelNotOperational: 'Not Operational'
-  monitorLabelNoData: 'No data'
-  dayInHistogramNoData: 'No data'
-  dayInHistogramOperational: 'All good'
+  allmonitorsOperational: '暂时还没挂'
+  notAllmonitorsOperational: '挂了一部分'
+  monitorLabelOperational: '能用'
+  monitorLabelNotOperational: '不能用'
+  monitorLabelNoData: '没数据'
+  dayInHistogramNoData: '没数据'
+  dayInHistogramOperational: '没挂'
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
@@ -21,4 +21,4 @@ monitors:
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
-    linkable: true # allows the title to be a link, default=true
+    linkable: false # allows the title to be a link, default=true
