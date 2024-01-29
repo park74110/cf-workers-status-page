@@ -54,11 +54,10 @@ export default function Index({ config, kvMonitors, kvMonitorsLastUpdate }) {
             localStorage.theme = theme
           }
           (() => {
-            if (["dark", "light"].includes(localStorage.theme)) {
-              setTheme("localStorage.theme")
-            } else {
+
+  
               setTheme("dark")
-            }
+    
           })()
           `}
         </script>
